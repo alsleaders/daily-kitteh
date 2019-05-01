@@ -47,12 +47,23 @@ main {
 }
 
 article {
-  padding: 5rem;
+  padding: 2rem;
 }
 
 #needs-a-border {
+  border-style: inset;
   border-color: green;
   border-width: thin;
+  font-weight: bolder;
+  margin: 5%;
+}
+
+.picture-header {
+  display: flex;
+}
+
+figcaption {
+  font-weight: bold;
 }
 .rotateimg90 {
   display: flex;
