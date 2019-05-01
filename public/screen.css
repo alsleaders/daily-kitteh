@@ -8,15 +8,15 @@ html {
 }
 
 body {
-  margin: 5%;
+  margin: 1% 10% 5% 10%;
   flex-direction: column;
   display: flex;
   border: 2rem;
+  background-color: whitesmoke;
 }
 
 .daily-kitteh {
   display: flex;
-  border-radius: 5px;
   padding: 1em;
   align-content: center;
   justify-content: center;
@@ -46,15 +46,26 @@ main {
   display: flex;
 }
 
-image {
+article {
+  padding: 5rem;
+}
 
+#needs-a-border {
+  border-color: green;
+  border-width: thin;
+}
+.rotateimg90 {
   display: flex;
   transform: rotate(90deg);
   align-content: column;
-    -webkit-transform:rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-  }
+  max-width: 150%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  justify-content: center;
+  position: relative;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
