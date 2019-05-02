@@ -17,7 +17,7 @@ body {
 
 .daily-kitteh {
   display: flex;
-  padding: 0.5rem 1rem;
+  padding: 0.8rem 1rem;
   align-content: center;
   justify-content: center;
   color: gray;
@@ -101,12 +101,13 @@ figcaption {
   align-content: center;
   align-items: center;
   justify-content: center;
+  /*
   position: relative;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
-  transform: rotate(90deg);
+  transform: rotate(90deg);*/
 }
 
 .busy-kittehs {
