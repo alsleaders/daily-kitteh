@@ -12,31 +12,32 @@ body {
   flex-direction: column;
   /*display: flex;*/
   border: 2rem;
-  background-color: whitesmoke;
+  background-color: #def4f4;
 }
 
 .daily-kitteh {
   display: flex;
-  padding: 0.5em 1em;
+  padding: 0.5rem 1rem;
   align-content: center;
   justify-content: center;
   color: gray;
   font-family: serif;
-  font-size: 400%;
+  font-weight: normal;
+  font-size: 300%;
   margin: 0;
 }
 
 .nav-bar {
   display: flex;
   font-size: 0.9rem;
-  background-color: lightseagreen;
+  background-color: #5db7cc;
   padding: 0;
   justify-content: space-around;
   align-content: center;
   color: white;
   text-decoration: underline;
   margin: 0;
-  /*font-weight: normal;*/
+  font-weight: normal;
   margin-block-end: 0;
   margin-block-start: 0;
 }
