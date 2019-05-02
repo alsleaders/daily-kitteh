@@ -72,21 +72,19 @@ article {
   border-color: green;
   border-width: thin;
   font-weight: bolder;
-  margin: 3% 8%;
+  margin: 3% 3% 0% 3%;
   max-height: 100%;
+  max-width: auto;
+  flex: 0 1 200%;
 }
 
-#be-centered {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+.be-centered {
+  padding: 1rem;
 }
 
 figcaption {
-  align-items: flex-start;
   font-weight: bold;
-  justify-items: center;
+  white-space: normal;
 }
 
 .rotateimg90 {
@@ -96,8 +94,8 @@ figcaption {
   max-width: 100%;
   max-height: 100%;
   margin: 0.5;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   justify-items: center;
   align-content: center;
   align-items: center;
